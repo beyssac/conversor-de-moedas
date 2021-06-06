@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom';
 import ConversorMoedas from './conversor-moedas';
 import {render, fireEvent} from '@testing-library/react'
-import '@testing-library/jest-dom/extend-expect'
+import '@testing-library/jest-dom/extend-expect';
 import axiosMock from 'axios';
 
 
